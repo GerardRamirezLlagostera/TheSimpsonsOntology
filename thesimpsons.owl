@@ -1,0 +1,3110 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/gierillpower/ontologies/2022/3/thesimpsons"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/gierillpower/ontologies/2022/3/thesimpsons">
+    <Prefix name="" IRI="http://www.semanticweb.org/gierillpower/ontologies/2022/3/thesimpsons"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">Author: Gerard Ramírez Llagostera</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal xml:lang="en">Name: TheSimpsonsOntology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Car"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doctor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Family"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helicopter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Job"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mafia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Man"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marketing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nuclear_Plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Police"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Politician"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#War"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Woman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zeppelin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Parent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#coworksWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#drives"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#family"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFamily"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFather"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMother"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSibling"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEnemyOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFatherOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFriendOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMarriedWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMotherOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isNeighbourOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#job"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#livesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#location"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#worksIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#character_specs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fuel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#num_weels"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#skin_color"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vehicle_specs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abraham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Agnes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Albertson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Allison"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AmericanFootball"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Apu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barney"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bouvier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brockman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burns"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Burns_Helicopter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carlson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cañonero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clancy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coltrane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edna_Karabappel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elizabeth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fat_Tony"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flanders"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Frink"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gumble"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Helen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Herb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hibbert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Homer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hoover"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jailbird"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jeff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joe_Quimby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Julius"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kearney"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kirk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Krustofsky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Krusty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lenny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lisa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lovejoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luann"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mackleberry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maggie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manjula"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mann"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Martin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#McDougall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#McKenna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Milhouse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moleman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Montgomery_Burns"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Muntz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nahasapeemapetilon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ned_Flanders"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nelson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nikki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nuclear_Plant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Otto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Police_Car"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prince"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Purple_Car"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rabino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ralph"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Red_Car"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reverend_lovejoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rodd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sarah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SchoolBus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Selma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seymour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sideshow_Bob"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Simpsons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Skinner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Smithers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snowball"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snowball_I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snowball_II"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snowball_III"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Springfield_Mall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spuckler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Szyslak"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taylor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Terwilliger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Todd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Troy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Van_Horne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Van_Houten"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Waylon_Smithers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wiggum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Willie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bart_skate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#boss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#boss_helper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#church"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clown_car"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#colonel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#comics_store"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#director"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#duff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#duff_zeppelin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flanders_home"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#food_shop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gangster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hospital"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kwik-e-mart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lisa_bike"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mafia_boss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mafia_car"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mafia_mansion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#maintenance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mayor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#police_boss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#police_helper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#police_office"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#red_bike"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#retirement_castle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#school"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#soldier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#student"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#teacher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tomaco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tools_shop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#war_zeppelin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7g_sector"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#742_evergreen_terrace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D&apos;amico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moe&apos;s_Bar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#People&apos;s_hospital"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Santa&apos;s_Little_Helper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pet&apos;s_hospital"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Animal"/>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#hasFamily"/>
+            <Class IRI="#Family"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bike"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Car"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cat"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doctor"/>
+        <Class IRI="#Job"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dog"/>
+        <Class IRI="#Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helicopter"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mafia"/>
+        <Class IRI="#Job"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Man"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marketing"/>
+        <Class IRI="#Job"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nuclear_Plant"/>
+        <Class IRI="#Job"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Police"/>
+        <Class IRI="#Job"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Politician"/>
+        <Class IRI="#Job"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#School"/>
+        <Class IRI="#Job"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shop"/>
+        <Class IRI="#Job"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skate"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sports"/>
+        <Class IRI="#Job"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#War"/>
+        <Class IRI="#Job"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Woman"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zeppelin"/>
+        <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Abraham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Agnes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Albertson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Allison"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sports"/>
+        <NamedIndividual IRI="#AmericanFootball"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Apu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Barney"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Bart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Bouvier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Brockman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Burns"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Helicopter"/>
+        <NamedIndividual IRI="#Burns_Helicopter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Carl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Carlson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Car"/>
+        <NamedIndividual IRI="#Cañonero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Clancy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cat"/>
+        <NamedIndividual IRI="#Coltrane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Edna_Karabappel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Elizabeth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Fat_Tony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Flanders"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Frink"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Gumble"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Hans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Helen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Herb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Hibbert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Hoover"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Jailbird"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Jeff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Joe_Quimby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Jones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Julius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Kearney"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Kent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Kirk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Krustofsky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Krusty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Lenny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Lisa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Lovejoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Luann"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Mackleberry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Maggie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Manjula"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Mann"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Marge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Martin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#McDougall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#McKenna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Mel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Milhouse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Moe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Moleman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Mona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Montgomery_Burns"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Muntz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Nahasapeemapetilon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Ned_Flanders"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Nelson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Nikki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Nuclear_Plant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Otto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Patty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Car"/>
+        <NamedIndividual IRI="#Police_Car"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Prince"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Car"/>
+        <NamedIndividual IRI="#Purple_Car"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Rabino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Ralph"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Car"/>
+        <NamedIndividual IRI="#Red_Car"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Reverend_lovejoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Rodd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Sarah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bus"/>
+        <NamedIndividual IRI="#SchoolBus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Woman"/>
+        <NamedIndividual IRI="#Selma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Seymour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Sideshow_Bob"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Skinner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cat"/>
+        <NamedIndividual IRI="#Smithers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Smithers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cat"/>
+        <NamedIndividual IRI="#Snowball"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cat"/>
+        <NamedIndividual IRI="#Snowball_I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cat"/>
+        <NamedIndividual IRI="#Snowball_II"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cat"/>
+        <NamedIndividual IRI="#Snowball_III"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Springfield_Mall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Spuckler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Szyslak"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Taylor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Terwilliger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Todd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Troy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Tv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Van_Horne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Van_Houten"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Waylon_Smithers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#Wiggum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Willie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skate"/>
+        <NamedIndividual IRI="#bart_skate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nuclear_Plant"/>
+        <NamedIndividual IRI="#boss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nuclear_Plant"/>
+        <NamedIndividual IRI="#boss_helper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#church"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Car"/>
+        <NamedIndividual IRI="#clown_car"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#War"/>
+        <NamedIndividual IRI="#colonel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#comics_store"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#School"/>
+        <NamedIndividual IRI="#director"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marketing"/>
+        <NamedIndividual IRI="#duff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zeppelin"/>
+        <NamedIndividual IRI="#duff_zeppelin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#flanders_home"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shop"/>
+        <NamedIndividual IRI="#food_shop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mafia"/>
+        <NamedIndividual IRI="#gangster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Doctor"/>
+        <NamedIndividual IRI="#hospital"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#kwik-e-mart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bike"/>
+        <NamedIndividual IRI="#lisa_bike"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mafia"/>
+        <NamedIndividual IRI="#mafia_boss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Car"/>
+        <NamedIndividual IRI="#mafia_car"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#mafia_mansion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#School"/>
+        <NamedIndividual IRI="#maintenance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Politician"/>
+        <NamedIndividual IRI="#mayor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Police"/>
+        <NamedIndividual IRI="#police_boss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Police"/>
+        <NamedIndividual IRI="#police_helper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#police_office"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bike"/>
+        <NamedIndividual IRI="#red_bike"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#retirement_castle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#school"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#War"/>
+        <NamedIndividual IRI="#soldier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#School"/>
+        <NamedIndividual IRI="#student"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#School"/>
+        <NamedIndividual IRI="#teacher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Marketing"/>
+        <NamedIndividual IRI="#tomaco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Shop"/>
+        <NamedIndividual IRI="#tools_shop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zeppelin"/>
+        <NamedIndividual IRI="#war_zeppelin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nuclear_Plant"/>
+        <NamedIndividual IRI="#7g_sector"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#742_evergreen_terrace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Family"/>
+        <NamedIndividual IRI="#D&apos;amico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#Moe&apos;s_Bar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Location"/>
+        <NamedIndividual IRI="#People&apos;s_hospital"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dog"/>
+        <NamedIndividual IRI="#Santa&apos;s_Little_Helper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Doctor"/>
+        <NamedIndividual IRI="#pet&apos;s_hospital"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Abraham"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <NamedIndividual IRI="#Abraham"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Abraham"/>
+        <NamedIndividual IRI="#Mona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Abraham"/>
+        <NamedIndividual IRI="#retirement_castle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#workedIn"/>
+        <NamedIndividual IRI="#Abraham"/>
+        <NamedIndividual IRI="#soldier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Agnes"/>
+        <NamedIndividual IRI="#Skinner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Agnes"/>
+        <NamedIndividual IRI="#Jeff"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMotherOf"/>
+        <NamedIndividual IRI="#Agnes"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Allison"/>
+        <NamedIndividual IRI="#Taylor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Apu"/>
+        <NamedIndividual IRI="#Nahasapeemapetilon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Apu"/>
+        <NamedIndividual IRI="#Manjula"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedIn"/>
+        <NamedIndividual IRI="#Apu"/>
+        <NamedIndividual IRI="#kwik-e-mart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Apu"/>
+        <NamedIndividual IRI="#food_shop"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Barney"/>
+        <NamedIndividual IRI="#Gumble"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Barney"/>
+        <NamedIndividual IRI="#Carl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Barney"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Barney"/>
+        <NamedIndividual IRI="#Lenny"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Barney"/>
+        <NamedIndividual IRI="#Moe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Barney"/>
+        <NamedIndividual IRI="#Moe&apos;s_Bar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#drives"/>
+        <NamedIndividual IRI="#Bart"/>
+        <NamedIndividual IRI="#bart_skate"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#drives"/>
+        <NamedIndividual IRI="#Bart"/>
+        <NamedIndividual IRI="#red_bike"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Bart"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFather"/>
+        <NamedIndividual IRI="#Bart"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMother"/>
+        <NamedIndividual IRI="#Bart"/>
+        <NamedIndividual IRI="#Marge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Bart"/>
+        <NamedIndividual IRI="#Lisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isEnemyOf"/>
+        <NamedIndividual IRI="#Bart"/>
+        <NamedIndividual IRI="#Sideshow_Bob"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Bart"/>
+        <NamedIndividual IRI="#SchoolBus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Bart"/>
+        <NamedIndividual IRI="#student"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Bouvier"/>
+        <NamedIndividual IRI="#Bouvier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Bouvier"/>
+        <NamedIndividual IRI="#Marge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Bouvier"/>
+        <NamedIndividual IRI="#Patty"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Carl"/>
+        <NamedIndividual IRI="#Carlson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Carl"/>
+        <NamedIndividual IRI="#Barney"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Carl"/>
+        <NamedIndividual IRI="#Carl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Carl"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Carl"/>
+        <NamedIndividual IRI="#Lenny"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Carl"/>
+        <NamedIndividual IRI="#Moe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedIn"/>
+        <NamedIndividual IRI="#Carl"/>
+        <NamedIndividual IRI="#Nuclear_Plant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Carl"/>
+        <NamedIndividual IRI="#7g_sector"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Carlson"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#drives"/>
+        <NamedIndividual IRI="#Clancy"/>
+        <NamedIndividual IRI="#Police_Car"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Clancy"/>
+        <NamedIndividual IRI="#Wiggum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <NamedIndividual IRI="#Clancy"/>
+        <NamedIndividual IRI="#Ralph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Clancy"/>
+        <NamedIndividual IRI="#Sarah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedIn"/>
+        <NamedIndividual IRI="#Clancy"/>
+        <NamedIndividual IRI="#police_office"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Clancy"/>
+        <NamedIndividual IRI="#police_boss"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Edna_Karabappel"/>
+        <NamedIndividual IRI="#Jeff"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Elizabeth"/>
+        <NamedIndividual IRI="#Hoover"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedIn"/>
+        <NamedIndividual IRI="#Elizabeth"/>
+        <NamedIndividual IRI="#school"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Elizabeth"/>
+        <NamedIndividual IRI="#teacher"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Fat_Tony"/>
+        <NamedIndividual IRI="#D&apos;amico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Fat_Tony"/>
+        <NamedIndividual IRI="#mafia_mansion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Fat_Tony"/>
+        <NamedIndividual IRI="#mafia_car"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Flanders"/>
+        <NamedIndividual IRI="#Flanders"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <NamedIndividual IRI="#Flanders"/>
+        <NamedIndividual IRI="#Rodd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <NamedIndividual IRI="#Flanders"/>
+        <NamedIndividual IRI="#Todd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Hans"/>
+        <NamedIndividual IRI="#Moleman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Hans"/>
+        <NamedIndividual IRI="#retirement_castle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Helen"/>
+        <NamedIndividual IRI="#Lovejoy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Helen"/>
+        <NamedIndividual IRI="#Reverend_lovejoy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Herb"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Homer"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFather"/>
+        <NamedIndividual IRI="#Homer"/>
+        <NamedIndividual IRI="#Abraham"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMother"/>
+        <NamedIndividual IRI="#Homer"/>
+        <NamedIndividual IRI="#Mona"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <NamedIndividual IRI="#Homer"/>
+        <NamedIndividual IRI="#Bart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <NamedIndividual IRI="#Homer"/>
+        <NamedIndividual IRI="#Lisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Homer"/>
+        <NamedIndividual IRI="#Marge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Homer"/>
+        <NamedIndividual IRI="#742_evergreen_terrace"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedIn"/>
+        <NamedIndividual IRI="#Homer"/>
+        <NamedIndividual IRI="#Nuclear_Plant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Homer"/>
+        <NamedIndividual IRI="#7g_sector"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Jeff"/>
+        <NamedIndividual IRI="#Albertson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Jeff"/>
+        <NamedIndividual IRI="#Agnes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Julius"/>
+        <NamedIndividual IRI="#Hibbert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Kent"/>
+        <NamedIndividual IRI="#Brockman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Kirk"/>
+        <NamedIndividual IRI="#Van_Houten"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <NamedIndividual IRI="#Kirk"/>
+        <NamedIndividual IRI="#Milhouse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Kirk"/>
+        <NamedIndividual IRI="#Luann"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Krusty"/>
+        <NamedIndividual IRI="#Krustofsky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Lisa"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFather"/>
+        <NamedIndividual IRI="#Lisa"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMother"/>
+        <NamedIndividual IRI="#Lisa"/>
+        <NamedIndividual IRI="#Marge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Lisa"/>
+        <NamedIndividual IRI="#Bart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Lisa"/>
+        <NamedIndividual IRI="#Maggie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Lisa"/>
+        <NamedIndividual IRI="#SchoolBus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Luann"/>
+        <NamedIndividual IRI="#Van_Houten"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Luann"/>
+        <NamedIndividual IRI="#Kirk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMotherOf"/>
+        <NamedIndividual IRI="#Luann"/>
+        <NamedIndividual IRI="#Milhouse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Maggie"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFather"/>
+        <NamedIndividual IRI="#Maggie"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMother"/>
+        <NamedIndividual IRI="#Maggie"/>
+        <NamedIndividual IRI="#Marge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Maggie"/>
+        <NamedIndividual IRI="#Bart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Maggie"/>
+        <NamedIndividual IRI="#Lisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Manjula"/>
+        <NamedIndividual IRI="#Nahasapeemapetilon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Manjula"/>
+        <NamedIndividual IRI="#Apu"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Manjula"/>
+        <NamedIndividual IRI="#kwik-e-mart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#drives"/>
+        <NamedIndividual IRI="#Marge"/>
+        <NamedIndividual IRI="#Purple_Car"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Marge"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Marge"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMotherOf"/>
+        <NamedIndividual IRI="#Marge"/>
+        <NamedIndividual IRI="#Bart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMotherOf"/>
+        <NamedIndividual IRI="#Marge"/>
+        <NamedIndividual IRI="#Lisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMotherOf"/>
+        <NamedIndividual IRI="#Marge"/>
+        <NamedIndividual IRI="#Maggie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Martin"/>
+        <NamedIndividual IRI="#Prince"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Milhouse"/>
+        <NamedIndividual IRI="#SchoolBus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Mona"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Mona"/>
+        <NamedIndividual IRI="#Abraham"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMotherOf"/>
+        <NamedIndividual IRI="#Mona"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Montgomery_Burns"/>
+        <NamedIndividual IRI="#Burns"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Montgomery_Burns"/>
+        <NamedIndividual IRI="#Burns_Helicopter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Nahasapeemapetilon"/>
+        <NamedIndividual IRI="#Moe&apos;s_Bar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Ned_Flanders"/>
+        <NamedIndividual IRI="#Flanders"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <NamedIndividual IRI="#Ned_Flanders"/>
+        <NamedIndividual IRI="#Rodd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <NamedIndividual IRI="#Ned_Flanders"/>
+        <NamedIndividual IRI="#Todd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Nelson"/>
+        <NamedIndividual IRI="#Muntz"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Nikki"/>
+        <NamedIndividual IRI="#McKenna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Nikki"/>
+        <NamedIndividual IRI="#SchoolBus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#drives"/>
+        <NamedIndividual IRI="#Otto"/>
+        <NamedIndividual IRI="#SchoolBus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Patty"/>
+        <NamedIndividual IRI="#Bouvier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Patty"/>
+        <NamedIndividual IRI="#Marge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Patty"/>
+        <NamedIndividual IRI="#Selma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Rabino"/>
+        <NamedIndividual IRI="#Krustofsky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <NamedIndividual IRI="#Rabino"/>
+        <NamedIndividual IRI="#Krusty"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Ralph"/>
+        <NamedIndividual IRI="#SchoolBus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Reverend_lovejoy"/>
+        <NamedIndividual IRI="#Lovejoy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Rodd"/>
+        <NamedIndividual IRI="#Flanders"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFather"/>
+        <NamedIndividual IRI="#Rodd"/>
+        <NamedIndividual IRI="#Ned_Flanders"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Sarah"/>
+        <NamedIndividual IRI="#Wiggum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <NamedIndividual IRI="#Sarah"/>
+        <NamedIndividual IRI="#Clancy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMotherOf"/>
+        <NamedIndividual IRI="#Sarah"/>
+        <NamedIndividual IRI="#Ralph"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Selma"/>
+        <NamedIndividual IRI="#Bouvier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Seymour"/>
+        <NamedIndividual IRI="#Skinner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMother"/>
+        <NamedIndividual IRI="#Seymour"/>
+        <NamedIndividual IRI="#Agnes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Skinner"/>
+        <NamedIndividual IRI="#Taylor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Snowball"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Snowball_I"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Snowball_II"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Snowball_III"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Todd"/>
+        <NamedIndividual IRI="#Flanders"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFather"/>
+        <NamedIndividual IRI="#Todd"/>
+        <NamedIndividual IRI="#Ned_Flanders"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Waylon_Smithers"/>
+        <NamedIndividual IRI="#Smithers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Willie"/>
+        <NamedIndividual IRI="#McDougall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#comics_store"/>
+        <NamedIndividual IRI="#comics_store"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedIn"/>
+        <NamedIndividual IRI="#police_office"/>
+        <NamedIndividual IRI="#police_office"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Santa&apos;s_Little_Helper"/>
+        <NamedIndividual IRI="#Simpsons"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Abraham"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">89</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Abraham"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Agnes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">89</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Agnes"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Agnes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Allison"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Allison"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Allison"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Apu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Apu"/>
+        <Literal>BLACK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Barney"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Barney"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Bart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Bart"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Bouvier"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Bouvier"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Bouvier"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">82</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuel"/>
+        <NamedIndividual IRI="#Burns_Helicopter"/>
+        <Literal>PLANE FUEL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#Burns_Helicopter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Carl"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Carl"/>
+        <Literal>BLACK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuel"/>
+        <NamedIndividual IRI="#Cañonero"/>
+        <Literal>DIESEL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#Cañonero"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Clancy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Clancy"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Edna_Karabappel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Edna_Karabappel"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Edna_Karabappel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Elizabeth"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Elizabeth"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Elizabeth"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Fat_Tony"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Fat_Tony"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Flanders"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Flanders"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Frink"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Frink"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Hans"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Hans"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Helen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Helen"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Helen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Herb"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Herb"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Homer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Homer"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Jeff"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Jeff"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Joe_Quimby"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">38</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Joe_Quimby"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Julius"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Julius"/>
+        <Literal>BLACK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Kearney"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Kearney"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Kent"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Kent"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Kirk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Kirk"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Kirk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Krusty"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Krusty"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Lenny"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Lenny"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Lisa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Lisa"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Lisa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Luann"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Luann"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Luann"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Maggie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Maggie"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Maggie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Manjula"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Manjula"/>
+        <Literal>BLACK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Manjula"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Marge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Marge"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Marge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Martin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Martin"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Mel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Mel"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Milhouse"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Milhouse"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Moe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Moe"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Mona"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">87</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Mona"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Mona"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Montgomery_Burns"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Montgomery_Burns"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Ned_Flanders"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Ned_Flanders"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Nelson"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Nelson"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Nikki"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Nikki"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Nikki"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Otto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Otto"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Patty"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Patty"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Patty"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuel"/>
+        <NamedIndividual IRI="#Police_Car"/>
+        <Literal>GASOLINE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#Police_Car"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuel"/>
+        <NamedIndividual IRI="#Purple_Car"/>
+        <Literal>DIESEL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#Purple_Car"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Rabino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Rabino"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Ralph"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Ralph"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuel"/>
+        <NamedIndividual IRI="#Red_Car"/>
+        <Literal>DIESEL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#Red_Car"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Reverend_lovejoy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Reverend_lovejoy"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Rodd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Rodd"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Sarah"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Sarah"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Sarah"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuel"/>
+        <NamedIndividual IRI="#SchoolBus"/>
+        <Literal>DIESEL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#SchoolBus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Seymour"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Seymour"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Sideshow_Bob"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Sideshow_Bob"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Skinner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Skinner"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Skinner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Todd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Todd"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Troy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Troy"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Waylon_Smithers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">42</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Waylon_Smithers"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#Willie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#skin_color"/>
+        <NamedIndividual IRI="#Willie"/>
+        <Literal>YELLOW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#weight"/>
+        <NamedIndividual IRI="#Willie"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuel"/>
+        <NamedIndividual IRI="#bart_skate"/>
+        <Literal>NONE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#bart_skate"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuel"/>
+        <NamedIndividual IRI="#clown_car"/>
+        <Literal>GASOLINE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#clown_car"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuel"/>
+        <NamedIndividual IRI="#duff_zeppelin"/>
+        <Literal>HYDROGEN</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#duff_zeppelin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuel"/>
+        <NamedIndividual IRI="#lisa_bike"/>
+        <Literal>NONE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#lisa_bike"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuel"/>
+        <NamedIndividual IRI="#mafia_car"/>
+        <Literal>GASOLINE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#mafia_car"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fuel"/>
+        <NamedIndividual IRI="#red_bike"/>
+        <Literal>NONE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#red_bike"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#war_zeppelin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#num_weels"/>
+        <NamedIndividual IRI="#war_zeppelin"/>
+        <Literal>HYDROGEN</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Parent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#coworksWith"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#drives"/>
+        <ObjectProperty IRI="#transport"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#family"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFamily"/>
+        <ObjectProperty IRI="#family"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFather"/>
+        <ObjectProperty IRI="#Parent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMother"/>
+        <ObjectProperty IRI="#Parent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSibling"/>
+        <ObjectProperty IRI="#Parent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isEnemyOf"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <ObjectProperty IRI="#Parent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMarriedWith"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMotherOf"/>
+        <ObjectProperty IRI="#Parent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isNeighbourOf"/>
+        <ObjectProperty IRI="#relation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#livesIn"/>
+        <ObjectProperty IRI="#location"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#locatedIn"/>
+        <ObjectProperty IRI="#location"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#uses"/>
+        <ObjectProperty IRI="#transport"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workedIn"/>
+        <ObjectProperty IRI="#job"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#worksIn"/>
+        <ObjectProperty IRI="#job"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#workedIn"/>
+        <ObjectProperty IRI="#worksIn"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#coworksWith"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isEnemyOf"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isFriendOf"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isMarriedWith"/>
+    </SymmetricObjectProperty>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#age"/>
+        <DataProperty IRI="#character_specs"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#fuel"/>
+        <DataProperty IRI="#vehicle_specs"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#num_weels"/>
+        <DataProperty IRI="#vehicle_specs"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#skin_color"/>
+        <DataProperty IRI="#character_specs"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#weight"/>
+        <DataProperty IRI="#character_specs"/>
+    </SubDataPropertyOf>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#skin_color"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#weight"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Animal</IRI>
+        <Literal xml:lang="en">contains all the animals from  the simpsons serie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bike</IRI>
+        <Literal xml:lang="en">all the kids has a bike</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bus</IRI>
+        <Literal xml:lang="en">the most common transport for going to school, for example</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Car</IRI>
+        <Literal xml:lang="en">all families has one or more cars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cat</IRI>
+        <Literal xml:lang="en">contains all the cats from the simpsons serie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Doctor</IRI>
+        <Literal xml:lang="en">here we can find all the jobs from the hospital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dog</IRI>
+        <Literal xml:lang="en">contains all the dogs from the simpsons serie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Family</IRI>
+        <Literal xml:lang="en">contains all the families from the simpsons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Helicopter</IRI>
+        <Literal xml:lang="en">rich characters has their own helicopter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Job</IRI>
+        <Literal xml:lang="en">contains all the jobs organized by types</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location</IRI>
+        <Literal xml:lang="en">here we can see all  the relevant locations from this serie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mafia</IRI>
+        <Literal xml:lang="en">contains all the jobs relationed with the mafia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Man</IRI>
+        <Literal xml:lang="en">Contains all male characthers from the simpsons serie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Marketing</IRI>
+        <Literal xml:lang="en">here we can see the jobs from people who makes marketing in the serie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nuclear_Plant</IRI>
+        <Literal xml:lang="en">all the works from the nuclear plant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Parent</IRI>
+        <Literal xml:lang="en">all kinds of family relationships</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="en">Contains all the characters from the simpsons serie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Police</IRI>
+        <Literal xml:lang="en">all the positions from the police department</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Politician</IRI>
+        <Literal xml:lang="en">all the politicians has their own position</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#School</IRI>
+        <Literal xml:lang="en">school has teachers, students, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shop</IRI>
+        <Literal xml:lang="en">there are different kinds of shops in this serie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Skate</IRI>
+        <Literal xml:lang="en">some kids likes to ride skates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sports</IRI>
+        <Literal xml:lang="en">there is people specialized in some sports. Professionals and characters that likes it.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vehicle</IRI>
+        <Literal xml:lang="en">in this class we can see the different subclasses relationed with the types of transport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#War</IRI>
+        <Literal xml:lang="en">this type contains all the relevant positions from the army</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Woman</IRI>
+        <Literal xml:lang="en">contains all the female characters from the simpsons serie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Zeppelin</IRI>
+        <Literal xml:lang="en">some marketing sessions has zeppelins</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#age</IRI>
+        <Literal>saves the age of the character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#coworksWith</IRI>
+        <Literal xml:lang="en">if the character coworks with someone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#drives</IRI>
+        <Literal xml:lang="en">if the character drives</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFamily</IRI>
+        <Literal xml:lang="en">to show what is the family for each character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFather</IRI>
+        <Literal xml:lang="en">to show who is the father of the character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasMother</IRI>
+        <Literal xml:lang="en">to show the character&apos;s mother</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSibling</IRI>
+        <Literal xml:lang="en">if the character has siblings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isEnemyOf</IRI>
+        <Literal xml:lang="en">if the character has or is enemy of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isFatherOf</IRI>
+        <Literal xml:lang="en">to say who&apos;s the character&apos;s son</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isFriendOf</IRI>
+        <Literal xml:lang="en">if the character has a friend</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isMarriedWith</IRI>
+        <Literal xml:lang="en">if the character is married with someone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isMotherOf</IRI>
+        <Literal xml:lang="en">to show who is the character&apos;s son</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isNeighbourOf</IRI>
+        <Literal xml:lang="en">if the character has a neighbour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#job</IRI>
+        <Literal xml:lang="en">properties for saying if the character worked or works</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#livesIn</IRI>
+        <Literal xml:lang="en">says where the character lives</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#locatedIn</IRI>
+        <Literal xml:lang="en">says where the character is normally located</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#location</IRI>
+        <Literal xml:lang="en">properties from locations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#relation</IRI>
+        <Literal xml:lang="en">all kinds of social relations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#skin_color</IRI>
+        <Literal>saves the skin color of the character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#transport</IRI>
+        <Literal xml:lang="en">shows if the character drives or uses a transport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#uses</IRI>
+        <Literal xml:lang="en">if the character goes into a transport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#weight</IRI>
+        <Literal>saves the weight of the character</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#workedIn</IRI>
+        <Literal xml:lang="en">says where the character works</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#worksIn</IRI>
+        <Literal xml:lang="en">if the character worked somewere before</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
