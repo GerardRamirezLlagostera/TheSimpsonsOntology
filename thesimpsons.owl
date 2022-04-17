@@ -252,6 +252,9 @@
         <NamedIndividual IRI="#Coltrane"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Duffman"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Edna_Karabappel"/>
     </Declaration>
     <Declaration>
@@ -771,6 +774,10 @@
     <ClassAssertion>
         <Class IRI="#Cat"/>
         <NamedIndividual IRI="#Coltrane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#Duffman"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Woman"/>
@@ -1298,7 +1305,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isMotherOf"/>
         <NamedIndividual IRI="#Agnes"/>
-        <NamedIndividual IRI="#Homer"/>
+        <NamedIndividual IRI="#Seymour"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
@@ -1386,9 +1393,19 @@
         <NamedIndividual IRI="#Lisa"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Bart"/>
+        <NamedIndividual IRI="#Maggie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isEnemyOf"/>
         <NamedIndividual IRI="#Bart"/>
         <NamedIndividual IRI="#Sideshow_Bob"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Bart"/>
+        <NamedIndividual IRI="#742_evergreen_terrace"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#uses"/>
@@ -1399,21 +1416,6 @@
         <ObjectProperty IRI="#worksIn"/>
         <NamedIndividual IRI="#Bart"/>
         <NamedIndividual IRI="#student"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasFamily"/>
-        <NamedIndividual IRI="#Bouvier"/>
-        <NamedIndividual IRI="#Bouvier"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSibling"/>
-        <NamedIndividual IRI="#Bouvier"/>
-        <NamedIndividual IRI="#Marge"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasSibling"/>
-        <NamedIndividual IRI="#Bouvier"/>
-        <NamedIndividual IRI="#Patty"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
@@ -1456,11 +1458,6 @@
         <NamedIndividual IRI="#7g_sector"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isFriendOf"/>
-        <NamedIndividual IRI="#Carlson"/>
-        <NamedIndividual IRI="#Homer"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#drives"/>
         <NamedIndividual IRI="#Clancy"/>
         <NamedIndividual IRI="#Police_Car"/>
@@ -1489,6 +1486,16 @@
         <ObjectProperty IRI="#worksIn"/>
         <NamedIndividual IRI="#Clancy"/>
         <NamedIndividual IRI="#police_boss"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#drives"/>
+        <NamedIndividual IRI="#Duffman"/>
+        <NamedIndividual IRI="#duff_zeppelin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Duffman"/>
+        <NamedIndividual IRI="#Homer"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isMarriedWith"/>
@@ -1526,6 +1533,11 @@
         <NamedIndividual IRI="#mafia_car"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Fat_Tony"/>
+        <NamedIndividual IRI="#mafia_boss"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
         <NamedIndividual IRI="#Flanders"/>
         <NamedIndividual IRI="#Flanders"/>
@@ -1539,6 +1551,11 @@
         <ObjectProperty IRI="#isFatherOf"/>
         <NamedIndividual IRI="#Flanders"/>
         <NamedIndividual IRI="#Todd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Flanders"/>
+        <NamedIndividual IRI="#tools_shop"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
@@ -1566,6 +1583,11 @@
         <NamedIndividual IRI="#Simpsons"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSibling"/>
+        <NamedIndividual IRI="#Herb"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
         <NamedIndividual IRI="#Homer"/>
         <NamedIndividual IRI="#Simpsons"/>
@@ -1589,6 +1611,11 @@
         <ObjectProperty IRI="#isFatherOf"/>
         <NamedIndividual IRI="#Homer"/>
         <NamedIndividual IRI="#Lisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFatherOf"/>
+        <NamedIndividual IRI="#Homer"/>
+        <NamedIndividual IRI="#Maggie"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isMarriedWith"/>
@@ -1621,14 +1648,34 @@
         <NamedIndividual IRI="#Agnes"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Joe_Quimby"/>
+        <NamedIndividual IRI="#mayor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
         <NamedIndividual IRI="#Julius"/>
         <NamedIndividual IRI="#Hibbert"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Julius"/>
+        <NamedIndividual IRI="#hospital"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Kearney"/>
+        <NamedIndividual IRI="#Nelson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
         <NamedIndividual IRI="#Kent"/>
         <NamedIndividual IRI="#Brockman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Kent"/>
+        <NamedIndividual IRI="#Tv"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
@@ -1649,6 +1696,21 @@
         <ObjectProperty IRI="#hasFamily"/>
         <NamedIndividual IRI="#Krusty"/>
         <NamedIndividual IRI="#Krustofsky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Krusty"/>
+        <NamedIndividual IRI="#Tv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Lenny"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Lenny"/>
+        <NamedIndividual IRI="#7g_sector"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
@@ -1674,6 +1736,11 @@
         <ObjectProperty IRI="#hasSibling"/>
         <NamedIndividual IRI="#Lisa"/>
         <NamedIndividual IRI="#Maggie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Lisa"/>
+        <NamedIndividual IRI="#742_evergreen_terrace"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#uses"/>
@@ -1719,6 +1786,11 @@
         <ObjectProperty IRI="#hasSibling"/>
         <NamedIndividual IRI="#Maggie"/>
         <NamedIndividual IRI="#Lisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Maggie"/>
+        <NamedIndividual IRI="#742_evergreen_terrace"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
@@ -1766,14 +1838,69 @@
         <NamedIndividual IRI="#Maggie"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#livesIn"/>
+        <NamedIndividual IRI="#Marge"/>
+        <NamedIndividual IRI="#742_evergreen_terrace"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
         <NamedIndividual IRI="#Martin"/>
         <NamedIndividual IRI="#Prince"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Martin"/>
+        <NamedIndividual IRI="#Lisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Mel"/>
+        <NamedIndividual IRI="#Krusty"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Mel"/>
+        <NamedIndividual IRI="#Tv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Milhouse"/>
+        <NamedIndividual IRI="#Van_Houten"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFather"/>
+        <NamedIndividual IRI="#Milhouse"/>
+        <NamedIndividual IRI="#Kirk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMother"/>
+        <NamedIndividual IRI="#Milhouse"/>
+        <NamedIndividual IRI="#Luann"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Milhouse"/>
+        <NamedIndividual IRI="#Bart"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#uses"/>
         <NamedIndividual IRI="#Milhouse"/>
         <NamedIndividual IRI="#SchoolBus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Moe"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isFriendOf"/>
+        <NamedIndividual IRI="#Moe"/>
+        <NamedIndividual IRI="#Lenny"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Moe"/>
+        <NamedIndividual IRI="#Moe&apos;s_Bar"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
@@ -1866,6 +1993,21 @@
         <NamedIndividual IRI="#Krusty"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Ralph"/>
+        <NamedIndividual IRI="#Wiggum"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFather"/>
+        <NamedIndividual IRI="#Ralph"/>
+        <NamedIndividual IRI="#Clancy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMother"/>
+        <NamedIndividual IRI="#Ralph"/>
+        <NamedIndividual IRI="#Sarah"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#uses"/>
         <NamedIndividual IRI="#Ralph"/>
         <NamedIndividual IRI="#SchoolBus"/>
@@ -1916,6 +2058,36 @@
         <NamedIndividual IRI="#Agnes"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Seymour"/>
+        <NamedIndividual IRI="#director"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFamily"/>
+        <NamedIndividual IRI="#Sideshow_Bob"/>
+        <NamedIndividual IRI="#Jailbird"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isEnemyOf"/>
+        <NamedIndividual IRI="#Sideshow_Bob"/>
+        <NamedIndividual IRI="#Homer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isEnemyOf"/>
+        <NamedIndividual IRI="#Sideshow_Bob"/>
+        <NamedIndividual IRI="#Lisa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isEnemyOf"/>
+        <NamedIndividual IRI="#Sideshow_Bob"/>
+        <NamedIndividual IRI="#Maggie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isEnemyOf"/>
+        <NamedIndividual IRI="#Sideshow_Bob"/>
+        <NamedIndividual IRI="#Marge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
         <NamedIndividual IRI="#Skinner"/>
         <NamedIndividual IRI="#Taylor"/>
@@ -1951,14 +2123,29 @@
         <NamedIndividual IRI="#Ned_Flanders"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Troy"/>
+        <NamedIndividual IRI="#Tv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
         <NamedIndividual IRI="#Waylon_Smithers"/>
         <NamedIndividual IRI="#Smithers"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Waylon_Smithers"/>
+        <NamedIndividual IRI="#Nuclear_Plant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasFamily"/>
         <NamedIndividual IRI="#Willie"/>
         <NamedIndividual IRI="#McDougall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#worksIn"/>
+        <NamedIndividual IRI="#Willie"/>
+        <NamedIndividual IRI="#maintenance"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#worksIn"/>
